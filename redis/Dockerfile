@@ -14,3 +14,4 @@ EXPOSE 6379
 
 ENTRYPOINT ["redis-server"]
 CMD ["--dir", "/redis-data"]
+

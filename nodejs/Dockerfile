@@ -11,5 +11,5 @@ RUN apt-get install -y nodejs
 
 RUN echo '\n# Node.js\nexport PATH="node_modules/.bin:$PATH"' >> /root/.bash_profile
 
-
+EXPOSE 8080
 CMD ["node", "npm"]
